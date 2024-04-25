@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+        <nav>
+            <h1>SMART TICKET</h1>
+            <li>รายการใบสั่ง</li>
+            <form action="#">
+                <select name="name" id="name">
+                  <option value="ชื่อผู้ใช้">ชื่อผู้ใช้</option>
+                  <option value="#">สมพงค์</option>
+                  <option value="#">สมจ๊วย</option>
+                  <option value="#">เครียด</option>
+                </select>
+                <br><br>
+              </form>
+        </nav>
+    <table>
+      <thead>
+        <tr>
+          <th>หมายเลขใบสั่ง</th>
+          <th>ผู้ขับขี่</th>
+          <th>วันที่ออก</th>
+          <th>สถานะ</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>70443</td>
+          <td>ง่วง</td>
+          <td>2024-04-24</td>
+          <td>กำลังดำเนินการ</td>
+          <td><button>ลบ</button></td>
+        </tr>
+        <tr>
+          <td>39235</td>
+          <td>นอน</td>
+          <td>2024-04-25</td>
+          <td>ยกเลิกกการชำระ</td>
+          <td><button>ลบ</button></td>
+        </tr>
+        <tr>
+            <td>13671</td>
+            <td>สุดๆ</td>
+            <td>2024-04-25</td>
+            <td>ชำระสำเร็จ</td>
+            <td><button>ลบ</button></td>
+          </tr>
+        <!-- เพิ่มแถวตามต้องการ -->
+      </tbody>
+    </table>
+</body>
+</html>
